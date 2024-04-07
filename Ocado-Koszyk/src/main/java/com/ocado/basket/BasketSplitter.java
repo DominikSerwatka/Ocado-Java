@@ -87,34 +87,7 @@ public class BasketSplitter {
 
         }
 
-        System.out.println(finalResult);
-
-
-
-//        for (Map.Entry<String, Integer> e : sortedOccurrence ){
-//
-//
-//            if (productList.size() == items.size()) {
-//                break;
-//            } else {
-//                List<String> helpProductList = new ArrayList<>();
-//                for (String item : items ) {
-//                    if (!productList.contains(item)){
-//                        if (deliveryOptions.get(item).contains(e.getKey())){
-//                            helpProductList.add(item);
-//                            productList.add(item);
-//                        }
-//                    }
-//                }
-//                if (!helpProductList.isEmpty()) {
-//                    finalResult.put(e.getKey(), helpProductList);
-//                }
-//
-//            }
-//        }
-//        System.out.println(finalResult);
-
-        return null;
+        return finalResult;
     }
 
     public List<Map.Entry<String, Integer>> computeOccurrence(List<String> items){
